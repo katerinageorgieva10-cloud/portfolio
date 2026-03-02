@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kat Illustrates — Artist & Illustrator</title>
+  <meta name="description" content="Portfolio of Kat Illustrates — traditionally trained artist working in graphite, watercolor, acrylic, and oil. Portraiture, murals, and illustrative design.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Kat Illustrates</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">Behind the Pen</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__image-wrap">
+      <div class="hero__image parallax" data-speed="0.15">
+        <img src="images/hero/IMG_20191223_202316.jpg" alt="Featured artwork by Kat Illustrates">
+      </div>
+    </div>
+    <div class="hero__text">
+      <h1 class="hero__title">KAT<br>ILLUSTRATES</h1>
+      <p class="hero__name">Katerina Georgieva</p>
+      <p class="hero__subtitle">Artist &amp; Illustrator</p>
+      <p class="hero__meta">Traditional Media &bull; Portraiture &bull; Mural Work &bull; Mixed Media</p>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section class="collections" id="collections">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-title">Collections</h2>
+    </div>
+    <div class="collections__grid">
+
+      <a href="collections/portraits.html" class="collection-card fade-in">
+        <div class="collection-card__image-wrap">
+          <img src="images/portraits/pencil-portrait.jpg" alt="Portraits in Black and White">
+        </div>
+        <h3 class="collection-card__title">Portraits in Black &amp; White</h3>
+      </a>
+
+      <a href="collections/watercolor.html" class="collection-card fade-in">
+        <div class="collection-card__image-wrap">
+          <img src="images/custom/katillustrates-portrait-roses.jpg" alt="Watercolor and Mixed Media Work">
+        </div>
+        <h3 class="collection-card__title">Watercolor &amp; Mixed Media Work</h3>
+      </a>
+
+      <a href="collections/mural.html" class="collection-card fade-in">
+        <div class="collection-card__image-wrap">
+          <img src="images/mural/mural.jpeg" alt="Mural Project">
+        </div>
+        <h3 class="collection-card__title">Mural Project</h3>
+      </a>
+
+      <a href="collections/custom.html" class="collection-card fade-in">
+        <div class="collection-card__image-wrap">
+          <img src="images/custom/luna-dog-painting.jpg" alt="Custom Work">
+        </div>
+        <h3 class="collection-card__title">Custom Work</h3>
+      </a>
+
+      <a href="collections/menu-poster.html" class="collection-card fade-in">
+        <div class="collection-card__image-wrap">
+          <img src="images/menu-poster/Screenshot 2026-03-02 151913.jpg" alt="Menu and Poster Designs">
+        </div>
+        <h3 class="collection-card__title">Menu &amp; Poster Designs</h3>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- BEHIND THE PEN -->
+  <section class="about" id="about">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Behind the Pen</h2>
+    </div>
+    <div class="about__layout fade-in">
+      <div class="about__photo">
+        <img src="images/about/about-2.png" alt="Katerina holding artwork">
+      </div>
+      <div class="about__text">
+        <p>Hi, I'm Katerina.</p>
+        <p>I've been holding a pen for as long as I can remember. That early obsession led to my first exhibitions and a national award while I was still a child, and eventually to studying at the National School of Arts in Bulgaria.</p>
+        <p>My foundation is in classical fine arts, with a specialty in sculpture — but my heart has always belonged to graphic work and expressive, high-contrast illustration. That traditional training is the backbone of everything I create, even when the final piece feels modern, soft, or playful.</p>
+        <p>I don't simply copy photos. Whether I'm working on a mural, a window display, a tattoo design, or a custom portrait, I reinterpret what I see through my own visual language. I aim to capture the soul of a person or a pet — stylized, expressive, never flat.</p>
+        <p>For me, this isn't just about creating something pretty. The real magic happens when someone feels something looking at their piece. That connection is what matters.</p>
+        <p>If my style resonates with you, I'd love to create something meaningful together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact__intro fade-in">
+      <p>For commissions, collaborations, or inquiries, please get in touch.</p>
+      <p>Available for freelance, mural projects, and custom portrait work.</p>
+    </div>
+    <div class="contact__inner fade-in">
+      <div class="contact__info">
+        <a href="mailto:katerina.georgieva10@gmail.com" class="contact__link">katerina.georgieva10@gmail.com</a>
+        <a href="https://linktr.ee/KaterinaG" target="_blank" rel="noopener" class="contact__link">Linktree</a>
+      </div>
+      <form class="contact__form" id="contactForm">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">Kat Illustrates</div>
+      <div class="footer__details">
+        <span>Cyprus</span>
+        <a href="https://linktr.ee/KaterinaG" target="_blank" rel="noopener">Linktree</a>
+        <a href="mailto:katerina.georgieva10@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <div class="lightbox__content">
+      <img src="" alt="">
+      <div class="lightbox__info">
+        <h3 class="lightbox__title"></h3>
+        <p class="lightbox__meta"></p>
+        <p class="lightbox__desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
